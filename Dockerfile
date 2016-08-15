@@ -1,7 +1,8 @@
 FROM python:3.5.2-alpine
 MAINTAINER Takuya Noguchi <takninnovationresearch@gmail.com>
 
-RUN apk add --update --no-cache --virtual .build-deps \
+RUN apk add --update --no-cache mariadb-client-libs \
+	&& apk add --no-cahe --virtual .build-deps \
 		mariadb-dev \
 		gcc \
 		musl-dev \
