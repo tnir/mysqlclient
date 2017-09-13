@@ -1,4 +1,4 @@
-FROM python:3.5.4-alpine
+FROM python:3.6.2-alpine
 MAINTAINER Takuya Noguchi <takninnovationresearch@gmail.com>
 
 RUN apk add --update --no-cache mariadb-client-libs \
