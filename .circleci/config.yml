@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: docker:17.07.0-ce
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run: |
+          TAG=build-$CIRCLE_BUILD_NUM
+          docker build -t tnir/mysqlclient:$TAG .
