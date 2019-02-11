@@ -6,5 +6,5 @@ RUN apk add --update --no-cache mariadb-client-libs \
 		mariadb-dev \
 		gcc \
 		musl-dev \
-	&& pip install mysqlclient==1.3.12 \
+	&& pip install mysqlclient==1.3.13 \
 	&& apk del .build-deps
