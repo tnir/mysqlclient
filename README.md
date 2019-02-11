@@ -4,4 +4,4 @@
 
 powered by [![PyPI version](https://badge.fury.io/py/mysqlclient.svg)](https://badge.fury.io/py/mysqlclient)
 
-the mysqlclient Docker image (based on python:3.6.2-alpine3.6)
+the mysqlclient Docker image (based on python:3.6.5-alpine3.7)
