@@ -1,0 +1,2 @@
+include:
+  - remote: "https://gitlab.com/gitlab-org/gitlab-ce/raw/v11.7.5/lib/gitlab/ci/templates/Auto-DevOps.gitlab-ci.yml"
