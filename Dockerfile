@@ -1,7 +1,7 @@
-FROM python:3.6.8-alpine3.7
+FROM python:3.6.8-alpine3.8
 MAINTAINER Takuya Noguchi <takninnovationresearch@gmail.com>
 
-RUN apk add --update --no-cache mariadb-client-libs \
+RUN apk add --update --no-cache mariadb-connector-c-dev \
 	&& apk add --no-cache --virtual .build-deps \
 		mariadb-dev \
 		gcc \
