@@ -1,4 +1,4 @@
-FROM python:3.6.8-alpine3.9
+FROM python:3.6.9-alpine3.9
 MAINTAINER Takuya Noguchi <takninnovationresearch@gmail.com>
 
 RUN apk add --update --no-cache mariadb-connector-c-dev \
