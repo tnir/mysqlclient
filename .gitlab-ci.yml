@@ -1,2 +1,2 @@
 include:
-  - remote: "https://gitlab.com/gitlab-org/gitlab-foss/raw/v12.8.10/lib/gitlab/ci/templates/Auto-DevOps.gitlab-ci.yml"
+  - remote: "https://gitlab.com/gitlab-org/gitlab-foss/raw/v13.0.4/lib/gitlab/ci/templates/Auto-DevOps.gitlab-ci.yml"
